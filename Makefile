@@ -1,12 +1,15 @@
-SRC = $(wildcard *.c)
-HDR = $(wildcard *.h)
 
-CFLAGS = -O3 -Wall -Werror
+ASM = melonSlicer.s melonThrower.s main.s shared.s
+
+CFLAGS = -O3
 CC = gcc
 
+melons: $(ASM)
+	$(CC) -o melons $(CFLAGS) $(ASM) 
 
-melons: $(SRC) $(HDR)
-	$(CC) -o melons $(CFLAGS) $(SRC)
+%.s: %.s.m4
+	m4 $< > $@
+
 
 clean:
-	rm -f melons
+	rm -f melons *.s
