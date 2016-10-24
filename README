@@ -1,3 +1,14 @@
-This is companion code to the essay found at:
+      .-.             .                      .-..                        
+        /|/|         /                 .--.-'  /    .-.                  
+       /   |  .-.   / .-._..  .-.     (  (_)  /     `-'.-.    .-.  ).--. 
+      /    |./.-'_ / (   )  )/   )     `-.   /     /  (     ./.-'_/      
+ .-' /     |(__.'_/_.-`-'  '/   (    _    )_/_.-_.(__. `---'(__.'/       
+(__.'      `.                    `- (_.--'                               
+                                                                                                                                
+                                                                                                                                        
+                                                                                                                                        
 
-http://www.zerobugsandprogramfaster.net/essays/6.html
+
+This is companion code to the essay found at: http://www.zerobugsandprogramfaster.net/essays/6.html
+
+I imagine warrior, with katana in hand, waiting for her trainer to toss melons into the air so she can practice slicing them. In source code terms, each is represented by a thread. 
